@@ -1,0 +1,113 @@
+# Backend (.NET)
+backend/bin/
+backend/obj/
+backend/.vs/
+backend/.vscode/
+backend/*.user
+backend/*.suo
+backend/*.sln.docstates
+backend/.DS_Store
+backend/*.log
+
+# Frontend (Node.js/Next.js)
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/public/**/*.map
+frontend/.env.local
+frontend/.env.*.local
+frontend/*.tsbuildinfo
+frontend/.vercel
+frontend/coverage/
+
+# Admin Panel
+admin-panel/node_modules/
+admin-panel/.next/
+admin-panel/out/
+admin-panel/.env.local
+admin-panel/.env.*.local
+admin-panel/coverage/
+
+# Database
+database/*.bak
+database/backup/
+
+# IDE/Editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+.env.*.example
+!.env.example
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+desktop.ini
+
+# Build artifacts
+dist/
+build/
+*.zip
+*.tar.gz
+
+# Docker
+docker-compose.override.yml
+.dockerignore
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+lerna-debug.log*
+
+# Testing
+coverage/
+.nyc_output/
+
+# Temporary files
+*.tmp
+*.temp
+*/temp/
+
+# Package managers
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# IDE specific
+*.vs
+.gradle
+gradlew
+.classpath
+.factorypath
+.project
+.settings
+.toolstarty
+.c9/
+*.launch
+.scalafmt.conf
+
+# Certificates
+*.pem
+*.key
+*.crt
+*.pfx
+
+# Misc
+.history/
+.env.production.local
